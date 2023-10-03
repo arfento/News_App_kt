@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.News_App_Kt" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorPrimaryVariant">@color/grey_white</item>
+        <item name="colorOnPrimary">@color/dark_navy_blue</item>
+        <item name="android:textColorPrimary">@color/dark_navy_blue</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/navy_blue</item>
+        <item name="colorSecondaryVariant">@color/royal_blue</item>
+
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:textColor">@color/dark_navy_blue</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+    </style>
+
+    <style name="Theme.News_App_Kt" parent="Base.Theme.News_App_Kt" />
+</resources>
